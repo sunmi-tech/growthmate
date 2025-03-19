@@ -1,10 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="border-2 flex w-full">
+    <header className="flex items-center w-full">
       <h1>GROWTH MATE</h1>
-      <div className="flex ml-auto">
+      <div className="flex items-center gap-6 ml-auto">
         <p>
           <Image
             className="inline-block"
@@ -15,7 +16,9 @@ export default function Header() {
           />
           오늘 날짜
         </p>
-        <button className="cursor-pointer">로그인</button>
+        <Link href="/login" className="cursor-pointer">
+          로그인
+        </Link>
       </div>
     </header>
   );

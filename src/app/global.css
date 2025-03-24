@@ -58,12 +58,16 @@
 }
 
 body {
-  font-family: "NanumSquareNeo", "Exo2", sans-serif;
+  font-family: "Exo2", "NanumSquareNeo", sans-serif;
 }
 
 /* color */
 @theme {
   --color-primary: #F8D57E;
+  --color-primary-hover : #FFF6DE;
+  --color-primary-active : #F4B860;
+  --color-secondary : #F2F3F6;
   --color-dark-text: #2C2543;
+  --color-navy-text : #273240;
   --color-gray-text: rgba(28, 29, 34, 0.5);
 }
